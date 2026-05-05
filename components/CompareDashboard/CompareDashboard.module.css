@@ -1,0 +1,142 @@
+.selectorCard {
+  padding: 24px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.selectorTitle {
+  margin: 0 0 20px;
+  color: #111827;
+  font-size: 24px;
+}
+
+.selectGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.label {
+  display: grid;
+  gap: 8px;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  background-color: #ffffff;
+  color: #111827;
+  font-size: 15px;
+}
+
+.warning {
+  margin: 16px 0 0;
+  color: #991b1b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.summaryGrid {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.summaryCard {
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.summaryCard h2 {
+  margin: 0 0 12px;
+  color: #111827;
+  font-size: 22px;
+}
+
+.summaryCard p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.sectionTitle {
+  margin: 0 0 20px;
+  color: #111827;
+  font-size: 28px;
+}
+
+.compareGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.communityTitle {
+  margin: 0 0 16px;
+  color: #111827;
+  font-size: 22px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+.table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f1f5f9;
+  color: #111827;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.table td {
+  color: #374151;
+  font-size: 15px;
+}
+
+.table span {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .selectGrid,
+  .summaryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .compareGrid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+}

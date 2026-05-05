@@ -1,0 +1,20 @@
+.wrapper {
+  margin-bottom: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #6b7280;
+}

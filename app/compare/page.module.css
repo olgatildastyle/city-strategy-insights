@@ -1,0 +1,163 @@
+.page {
+  min-height: 100vh;
+  padding: 40px 16px;
+  background-color: #f8fafc;
+}
+
+.backLink {
+  display: inline-flex;
+  margin-bottom: 32px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin: 0 0 16px;
+  color: #111827;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.description {
+  max-width: 760px;
+  margin: 0;
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.summaryGrid {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.summaryCard {
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.summaryCard h2 {
+  margin: 0 0 12px;
+  color: #111827;
+  font-size: 22px;
+}
+
+.summaryCard p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.sectionTitle {
+  margin: 0 0 20px;
+  color: #111827;
+  font-size: 28px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+.table th,
+.table td {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f1f5f9;
+  color: #111827;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.table td {
+  color: #374151;
+  font-size: 15px;
+}
+
+.table span {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.insight {
+  max-width: 900px;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+
+.insight h2 {
+  margin: 0 0 12px;
+  color: #1e3a8a;
+  font-size: 24px;
+}
+
+.insight p {
+  margin: 0 0 12px;
+  color: #1e40af;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.insight p:last-child {
+  margin-bottom: 0;
+}
+
+.compareGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.communityTitle {
+  margin: 0 0 16px;
+  color: #111827;
+  font-size: 22px;
+}
+
+@media (min-width: 1024px) {
+  .compareGrid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 56px 32px;
+  }
+
+  .summaryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .title {
+    font-size: 56px;
+  }
+}
